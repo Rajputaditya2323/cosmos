@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL = "https://api.themoviedb.org/3";
-const TMDB_TOKEN = import.meta.env.VITE_APP_TMDB_TOKEN;
+const TMDB_TOKEN = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwYTBiNWJjMjhhYmQxZGIzMDQxZDdjMzAxOTljYjBiNSIsInN1YiI6IjY0YTgxZDRhOTU3ZTZkMDExYzRjMWUxOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Ztk3kNw6ofpfSSrHbpwuslgq83tX10godVKFL7Hu8Ck';
 
 const headers = {
     Authorization: "bearer " + TMDB_TOKEN,
